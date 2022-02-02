@@ -8,7 +8,7 @@
 <div id="listData" class="list-form-container">
     <?php
         
-        $connection = imap_open('{imap.gmail.com:993/imap/ssl}INBOX', 'kinetic2811@gmail.com', 'kumar2811') or die('Cannot connect to Gmail: ' . imap_last_error());
+        $connection = imap_open('{imap.gmail.com:993/imap/ssl}INBOX', 'kinetic2811@gmail.com', '*********') or die('Cannot connect to Gmail: ' . imap_last_error());
         
  
         $emailData = imap_search($connection, 'ALL');
